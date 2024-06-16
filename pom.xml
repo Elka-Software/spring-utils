@@ -14,7 +14,7 @@
     <groupId>org.elka.utils</groupId>
     <artifactId>elka-spring-utils</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
