@@ -15,26 +15,30 @@ This Spring Utility Project is designed to provide extended functional support, 
  - Spring Boot 3.0 or higher
 
 Installation
-Clone the repository:
+
+#### Clone the repository:
 
 ``` bash
-git clone https://github.com/yourusername/spring-utility-project.git
 cd spring-utility-project
-Build the project using Maven:
 ```
 
 ``` bash
-Code kopiëren
-mvn clean install
-Add the dependency to your Spring Boot project:
+cd spring-utility-project
 ```
 
+#### Build the project using Maven:
+``` bash
+mvn clean install -X
+```
+
+### Add the dependency to your Spring Boot project:
 ``` xml
 <dependency>
-    <groupId>com.yourorganization</groupId>
-    <artifactId>spring-utility-project</artifactId>
-    <version>1.0.0</version>
+  <groupId>org.elka.utils</groupId>
+  <artifactId>elka-spring-utils</artifactId>
+  <version>1.0.1</version>
 </dependency>
+<!-- See github packages for most recent version! -->
 ```
 
 ## Usage
