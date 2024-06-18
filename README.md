@@ -19,7 +19,7 @@ Installation
 #### Clone the repository:
 
 ``` bash
-git clone https://github.com/yourusername/spring-utility-project.git
+[git clone https://github.com/yourusername/spring-utility-project.git](https://github.com/Elka-Software/spring-utils.git)
 ```
 
 ``` bash
