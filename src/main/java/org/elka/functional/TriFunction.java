@@ -1,4 +1,4 @@
-package org.elka.funtional;
+package org.elka.functional;
 
 import java.util.Objects;
 import java.util.function.Function;
