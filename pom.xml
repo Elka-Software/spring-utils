@@ -13,7 +13,7 @@
 
     <groupId>org.elka.utils</groupId>
     <artifactId>elka-spring-utils</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -28,13 +28,6 @@
             <url>https://maven.pkg.github.com/Elka-Software/spring-utils</url>
         </repository>
     </distributionManagement>
-
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
@@ -54,11 +47,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.WebMonnolith</groupId>
-            <artifactId>SpringRestfull</artifactId>
-            <version>V1.2</version>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
