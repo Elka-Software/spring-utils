@@ -34,8 +34,8 @@ mvn clean install -X
 ### Add the dependency to your Spring Boot project:
 ``` xml
 <dependency>
-  <groupId>org.elka.utils</groupId>
-  <artifactId>elka-spring-utils</artifactId>
+  <groupId>elka.utils</groupId>
+  <artifactId>spring</artifactId>
   <version>1.0.1</version>
 </dependency>
 <!-- See github packages for most recent version! -->
