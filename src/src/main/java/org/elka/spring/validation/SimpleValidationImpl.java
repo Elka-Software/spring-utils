@@ -1,4 +1,4 @@
-package org.elka.validation;
+package org.elka.spring.validation;
 
 import jakarta.validation.ConstraintViolation;
 

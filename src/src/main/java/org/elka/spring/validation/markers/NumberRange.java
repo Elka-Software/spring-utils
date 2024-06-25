@@ -1,8 +1,8 @@
-package org.elka.validation.markers;
+package org.elka.spring.validation.markers;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
-import org.elka.validation.processors.NumberRangeValidator;
+import org.elka.spring.validation.processors.NumberRangeValidator;
 
 import java.lang.annotation.*;
 

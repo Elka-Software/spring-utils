@@ -1,8 +1,8 @@
-package org.elka.validation.processors;
+package org.elka.spring.validation.processors;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import org.elka.validation.markers.PosNum;
+import org.elka.spring.validation.markers.PosNum;
 
 public class PositiveNumberValidator implements ConstraintValidator<PosNum, Number> {
     @Override

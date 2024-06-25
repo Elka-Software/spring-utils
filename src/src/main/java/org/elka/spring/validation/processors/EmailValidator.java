@@ -1,10 +1,9 @@
-package org.elka.validation.processors;
+package org.elka.spring.validation.processors;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import org.elka.validation.markers.Email;
+import org.elka.spring.validation.markers.Email;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class EmailValidator implements ConstraintValidator<Email, String> {
