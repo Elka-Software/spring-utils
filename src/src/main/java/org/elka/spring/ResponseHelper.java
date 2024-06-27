@@ -6,6 +6,7 @@ import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 public class ResponseHelper {
+
     /**
      * Method to encapsulate a successful response
      * @param data response data
@@ -16,7 +17,7 @@ public class ResponseHelper {
     public static <T> @NotNull Response<T> success(T data) {
         return new Response<>(
                 ResponseStatus.SUCCESS.message,
-                ResponseStatus.SUCCESS.code,
+                ResponseStatus.SUCCESS.toString(),
                 data);
     }
 
@@ -40,6 +41,6 @@ public class ResponseHelper {
      */
     @Contract("_, _ -> new")
     public static <T> @NotNull Response<T> error(@NotNull ResponseStatus statusEnum, String errorMsg) {
-        return new Response<>(errorMsg, statusEnum.code, null);
+        return new Response<>(errorMsg, statusEnum.toString(), null);
     }
 }
