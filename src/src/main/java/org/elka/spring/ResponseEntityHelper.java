@@ -19,7 +19,7 @@ public class ResponseEntityHelper {
     public static <T> @NotNull ResponseEntity<Response<T>> success(T data) {
         Response<T> response = new Response<>(
                 ResponseStatus.SUCCESS.message,
-                ResponseStatus.SUCCESS.code,
+                ResponseStatus.SUCCESS.toString(),
                 data
         );
         return new ResponseEntity<>(response, HttpStatus.OK);
@@ -47,7 +47,7 @@ public class ResponseEntityHelper {
     public static <T> @NotNull ResponseEntity<Response<T>> error(@NotNull ResponseStatus statusEnum, String errorMsg) {
         Response<T> response = new Response<>(
                 errorMsg,
-                statusEnum.code,
+                statusEnum.toString(),
                 null
         );
         return new ResponseEntity<>(response, HttpStatus.valueOf(statusEnum.code));
