@@ -1,14 +1,13 @@
 package org.elka.spring;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.elka.Response;
 import org.elka.ResponseStatus;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 
-public class ResponseEntityHelper extends ResponseEntityExceptionHandler {
+public class ResponseEntityHelper {
 
     /**
      * Method to encapsulate a successful response

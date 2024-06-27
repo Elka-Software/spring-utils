@@ -1,6 +1,6 @@
 package org.elka.exceptions;
 
-public class WebClientDownException extends RuntimeException {
+public class WebClientDownException extends ServiceException {
     public WebClientDownException() {
         super();
     }

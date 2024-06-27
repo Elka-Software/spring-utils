@@ -12,6 +12,21 @@ public class ServiceException extends RuntimeException {
         this.status = status;
     }
 
+    public ServiceException() {
+        super();
+        status = ResponseStatus.PARAM_INVALID;
+    }
+
+    public ServiceException(String message) {
+        super(message);
+        status = ResponseStatus.PARAM_INVALID;
+    }
+
+    public ServiceException(String message, Throwable cause) {
+        super(message, cause);
+        status = ResponseStatus.PARAM_INVALID;
+    }
+
     public ServiceException(ResponseStatus status) {
         this(status, status.message);
     }
