@@ -9,7 +9,7 @@ public class ResponseHelper {
     /**
      * Method to encapsulate a successful response
      * @param data response data
-     * @return response
+     * @return Response
      * @param <T> type of response data
      */
     @Contract("_ -> new")
@@ -23,7 +23,7 @@ public class ResponseHelper {
     /**
      * Method to encapsulate an error response
      * @param statusEnum error response status
-     * @return response
+     * @return Response
      * @param <T>
      */
     @Contract("_ -> new")
@@ -35,7 +35,7 @@ public class ResponseHelper {
      * Method to encapsulate an error response with a custom error message
      * @param statusEnum error response status
      * @param errorMsg custom error message
-     * @return response
+     * @return Response
      * @param <T>
      */
     @Contract("_, _ -> new")
