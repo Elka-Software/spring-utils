@@ -1,11 +1,18 @@
 package org.elka;
 
 import jakarta.annotation.Nullable;
-import org.springframework.http.HttpStatus;
+import lombok.Builder;
+
+import java.io.Serial;
+import java.io.Serializable;
 
 import static java.util.Objects.requireNonNull;
 
-public record Response<T> (String message, HttpStatus status, @Nullable T data) {
+@Builder
+public record Response<T> (String message, Integer status, @Nullable T data) implements Serializable {
+    @Serial
+    private static final long serialVersionUID = -1133637474601003587L;
+
     public Response {
         requireNonNull(message);
         requireNonNull(status);

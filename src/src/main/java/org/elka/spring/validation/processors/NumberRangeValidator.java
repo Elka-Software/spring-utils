@@ -1,8 +1,8 @@
-package org.elka.validation.processors;
+package org.elka.spring.validation.processors;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import org.elka.validation.markers.NumberRange;
+import org.elka.spring.validation.markers.NumberRange;
 
 public class NumberRangeValidator implements ConstraintValidator<NumberRange, Double> {
     private double max;
