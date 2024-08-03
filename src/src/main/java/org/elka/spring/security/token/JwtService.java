@@ -68,7 +68,11 @@ public class JwtService {
                 .compact();
     }
 
-    public boolean isValid(String token, @NotNull UserDetails userDetails) throws TokenValidationException {
+    public void validateToken(final String token) {
+        Jwts.parserBuilder().setSigningKey(this.getSignInKey()).build().parseClaimsJws(token);
+    }
+
+    public boolean isValidUserToken(String token, @NotNull UserDetails userDetails) throws TokenValidationException {
         try {
             final String username = this.extractUsername(token);
             return (username.equals(userDetails.getUsername())) && !this.isExpired(token);
