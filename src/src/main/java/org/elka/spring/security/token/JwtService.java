@@ -12,7 +12,6 @@ import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.stereotype.Service;
 
 import java.security.Key;
 import java.util.Date;
@@ -22,7 +21,6 @@ import java.util.Map;
 import java.util.function.Function;
 
 @RequiredArgsConstructor
-@Service
 @Slf4j
 public class JwtService {
 
