@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ce746f-7a48-4058-aace-bec34f08a062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elka-spring-utils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/exceptions/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/ResponseEntityHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-utils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/SimpleValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/SimpleValidationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/ValidationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/ValidationType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/markers/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/markers/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/markers/NumberRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/markers/NumberRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/markers/PosNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/markers/PosNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/processors/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/processors/EmailValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/processors/NumberRangeValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/processors/NumberRangeValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/org/elka/validation/processors/PositiveNumberValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main/java/org/elka/spring/validation/processors/PositiveNumberValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/repositories/spring-utils/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"

@@ -22,6 +22,20 @@ public class ResponseHelper {
     }
 
     /**
+     * Method to encapsulate a successful response
+     * @param data response data
+     * @return Response
+     * @param <T> type of response data
+     */
+    @Contract("_ -> new")
+    public static <T> @NotNull Response<T> ok(T data) {
+        return new Response<>(
+                ResponseStatus.OK.message,
+                ResponseStatus.OK.toString(),
+                data);
+    }
+
+    /**
      * Method to encapsulate an error response
      * @param statusEnum error response status
      * @return Response

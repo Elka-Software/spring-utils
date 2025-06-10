@@ -109,4 +109,9 @@ public enum ResponseStatus {
     public static HttpStatus toHttpStatus(@NotNull ResponseStatus responseStatus) {
         return HttpStatus.resolve(responseStatus.code);
     }
+
+    @Contract(pure = true)
+    public static HttpStatus toHttpStatus(@NotNull String responseStatus) throws IllegalArgumentException {
+        return HttpStatus.resolve(valueOf(responseStatus).code);
+    }
 }
